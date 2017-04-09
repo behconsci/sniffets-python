@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+sniffets/__init__.py
+sniffets/sniffets.py
+sniffets.egg-info/PKG-INFO
+sniffets.egg-info/SOURCES.txt
+sniffets.egg-info/dependency_links.txt
+sniffets.egg-info/requires.txt
+sniffets.egg-info/top_level.txt

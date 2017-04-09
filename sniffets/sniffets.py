@@ -2,7 +2,7 @@ import grequests
 import requests
 
 
-class Inlighty(object):
+class Sniffet(object):
     def __init__(self, token):
         self.url = 'http://207.154.212.31/inlight/track/%s/' % token
 
