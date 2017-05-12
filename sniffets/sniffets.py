@@ -4,7 +4,7 @@ import requests
 
 class Sniffet(object):
     def __init__(self, token):
-        self.url = 'http://207.154.212.31/inlight/track/%s/' % token
+        self.url = 'http://sniffets.com/sniff/event/%s/' % token
 
         # keep alive and connection pooling
         self.session = requests.session()
