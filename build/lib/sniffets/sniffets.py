@@ -9,8 +9,8 @@ class Sniffet(object):
         # keep alive and connection pooling
         self.session = requests.session()
 
-    def event(self, event_name):
+    def event(self, event_name, extra=None):
         url = '%s?name=%s' % (self.url, event_name)
-        req_ = [grequests.get(url, session=self.session)]
-        r = grequests.map(req_)
-        return r[0]
+        payload = {'name': event_name, 'extra': extra}
+        req_ = [grequests.post(url, session=self.session, data=payload)]
+        grequests.imap(req_)
