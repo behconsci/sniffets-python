@@ -10,7 +10,6 @@ class Sniffet(object):
         self.session = requests.session()
 
     def event(self, event_name, extra=None):
-        url = '%s?name=%s' % (self.url, event_name)
         payload = {'name': event_name, 'extra': extra}
-        req_ = [grequests.post(url, session=self.session, data=payload)]
+        req_ = [grequests.post(self.url, session=self.session, data=payload)]
         grequests.imap(req_)
