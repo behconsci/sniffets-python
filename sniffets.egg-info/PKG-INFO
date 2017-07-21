@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: sniffets
-Version: 0.1.2
+Version: 0.1.3
 Summary: Python lib for sniffets.com
 Home-page: https://github.com/behconsci/sniffets-python
 Author: Doniyor Jurabayev
 Author-email: behconsci@gmail.com
 License: UNKNOWN
-Download-URL: https://github.com/behconsci/sniffets-python/archive/0.1.2.tar.gz
+Download-URL: https://github.com/behconsci/sniffets-python/archive/0.1.3.tar.gz
 Description: ===============================
         Python Library for sniffets.com
         ===============================
