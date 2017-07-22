@@ -12,4 +12,4 @@ class Sniffet(object):
     def event(self, event_name, extra=None):
         payload = {'name': event_name, 'extra': extra}
         req_ = [grequests.post(self.url, session=self.session, json=payload)]
-        grequests.imap(req_)
+        grequests.map(req_)

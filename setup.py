@@ -12,13 +12,13 @@ except IOError:
 setup(
     name='sniffets',
     packages=['sniffets'],
-    version='0.1.7',
+    version='0.1.8',
     long_description=long_description,
     description='Python lib for sniffets.com',
     author='Doniyor Jurabayev',
     author_email='behconsci@gmail.com',
     url='https://github.com/behconsci/sniffets-python',
-    download_url='https://github.com/behconsci/sniffets-python/archive/0.1.7.tar.gz',
+    download_url='https://github.com/behconsci/sniffets-python/archive/0.1.8.tar.gz',
     keywords=['track', 'monitor', 'bug'],
     classifiers=[],
     install_requires=[
